@@ -3,8 +3,8 @@ const questionContainer = document.getElementById('question-container');
 const timeUp = document.getElementById('timeup-container');
 const tryAgain = document.getElementById('tryagain');
 
-const startingMinutes = 1;
-let time = startingMinutes * 1;
+const startingMinutes = 5;
+let time = startingMinutes * 60;
 
 const timeInterval = setInterval(() => {
     let minutes = Math.floor(time / 60);
