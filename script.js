@@ -116,10 +116,6 @@ const displayQuestion = () => {
            </div>
            <button id="submitBtn"><i class="fa-solid fa-angles-right"></i></button>
         `;
-        const selectedInput = document.querySelector('input[name="question"]:checked');
-        if (selectedInput) {
-            selectedInput.classList.add('selected')
-        } 
 
         const submitBtn = document.getElementById('submitBtn');
         submitBtn.addEventListener('click', () => {
