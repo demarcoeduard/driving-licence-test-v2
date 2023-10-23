@@ -228,6 +228,17 @@ label, input {
     #score-title, #score {
         font-size: 65px;
     }
+
+    /* TIME UP */
+
+    #timeup {
+        font-size: 70px;
+        padding: 50px;
+    }
+
+    #tryagain {
+        font-size: 25px;
+    }
 }
 
 @media (width < 500px) {
@@ -273,5 +284,16 @@ label, input {
 
     #score-title, #score {
         font-size: 60px;
+    }
+
+    /* TIME UP */
+
+    #timeup {
+        font-size: 60px;
+        padding: 40px;
+    }
+
+    #tryagain {
+        font-size: 20px;
     }
 }
